@@ -1,7 +1,9 @@
+package shape;
+
 import java.awt.Color;
 import java.awt.Graphics;
 
-public class Square extends Shape {
+public class Square extends BaseShape {
     private int size;
 
     public Square(int x, int y, Color color, int size) {

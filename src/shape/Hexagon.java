@@ -1,8 +1,10 @@
+package shape;
+
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Polygon;
 
-public class Hexagon extends Shape {
+public class Hexagon extends BaseShape {
     private int radius;
 
     public Hexagon(int x, int y, Color color, int radius) {

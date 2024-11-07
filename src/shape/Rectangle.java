@@ -1,7 +1,9 @@
+package shape;
+
 import java.awt.Color;
 import java.awt.Graphics;
 
-public class Rectangle extends Shape {
+public class Rectangle extends BaseShape {
     private int width, height;
 
     public Rectangle(int x, int y, Color color, int width, int height) {

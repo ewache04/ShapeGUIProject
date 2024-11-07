@@ -1,7 +1,9 @@
+package shape;
+
 import java.awt.Color;
 import java.awt.Graphics;
 
-public class Circle extends Shape {
+public class Circle extends BaseShape {
     private int radius;
 
     public Circle(int x, int y, Color color, int radius) {

@@ -1,7 +1,9 @@
+package shape;
+
 import java.awt.Color;
 import java.awt.Graphics;
 
-public class Ellipse extends Shape {
+public class Ellipse extends BaseShape {
     private int width, height;
 
     public Ellipse(int x, int y, Color color, int width, int height) {

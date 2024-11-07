@@ -1,8 +1,10 @@
+package shape;
+
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Polygon;
 
-public class Star extends Shape {
+public class Star extends BaseShape {
     private int radius;
 
     public Star(int x, int y, Color color, int radius) {

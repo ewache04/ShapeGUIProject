@@ -1,8 +1,10 @@
+package shape;
+
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Polygon;
 
-public class Triangle extends Shape {
+public class Triangle extends BaseShape {
     private int base, height;
 
     public Triangle(int x, int y, Color color, int base, int height) {
