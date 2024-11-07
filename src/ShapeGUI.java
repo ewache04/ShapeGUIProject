@@ -68,11 +68,16 @@ public class ShapeGUI extends JFrame {
             switch (shapeType.toLowerCase()) {
                 case "circle" -> currentShape = new Circle(centerX, centerY, color, 50);
                 case "rectangle" -> currentShape = new Rectangle(centerX, centerY, color, 100, 50);
-                case "triangle" -> currentShape = new Triangle(centerX, centerY - 30, color, 60, 60);  // Adjusted y for centering
+                case "triangle" -> currentShape = new Triangle(centerX, centerY - 30, color, 60, 60);
+                case "square" -> currentShape = new Square(centerX, centerY, color, 50);
+                case "ellipse" -> currentShape = new Ellipse(centerX, centerY, color, 80, 40);
+                case "hexagon" -> currentShape = new Hexagon(centerX, centerY, color, 40);
+                case "star" -> currentShape = new Star(centerX, centerY, color, 50);
                 default -> JOptionPane.showMessageDialog(ShapeGUI.this,
-                        "Invalid shape. Enter 'Circle', 'Rectangle', or 'Triangle'.",
+                        "Invalid shape. Enter '(Circle, Rectangle, Triangle), etc.'.",
                         "Error", JOptionPane.ERROR_MESSAGE);
             }
+
 
             canvasPanel.repaint();
             shapeInputField.setText("");  // Clear the input field
