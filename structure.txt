@@ -1,0 +1,17 @@
+ShapeGUIProject/
+├── src/
+│   ├── shape/
+│   │   ├── BaseShape.java         # Abstract class for shapes
+│   │   ├── Circle.java            # Class for Circle shape
+│   │   ├── Ellipse.java           # Class for Ellipse shape
+│   │   ├── Hexagon.java           # Class for Hexagon shape
+│   │   ├── Pentagon.java          # Class for Pentagon shape
+│   │   ├── Rectangle.java         # Class for Rectangle shape
+│   │   ├── Square.java            # Class for Square shape
+│   │   ├── Star.java              # Class for Star shape
+│   │   ├── Triangle.java          # Class for Triangle shape
+│   ├── Main.java                  # Main class to run the application
+│   ├── ShapeGUI.java              # Main GUI class for rendering shapes
+├── README.md                     # Project documentation
+├── LICENSE                       # License information (optional)
+└── structure.txt                 # Project structure file

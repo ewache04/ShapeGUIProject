@@ -3,22 +3,22 @@ Here’s a README file template for your project **ShapeGUIProject** that you ca
 ```markdown
 # ShapeGUIProject
 
-**ShapeGUIProject** is a Java-based graphical application that allows users to draw various geometric shapes (Circle, Rectangle, Triangle, Ellipse, Square, Pentagon, Hexagon, and Star) on a canvas using a graphical user interface (GUI). The project demonstrates the use of object-oriented principles, event handling, and Java Swing for GUI components.
+**ShapeGUIProject** is a Java-based graphical application that allows users to draw various geometric shape (shape.Circle, shape.Rectangle, shape.Triangle, shape.Ellipse, shape.Square, Pentagon, shape.Hexagon, and shape.Star) on a canvas using a graphical user interface (GUI). The project demonstrates the use of object-oriented principles, event handling, and Java Swing for GUI components.
 
 ## Features
 
 - **Interactive GUI**: Users can input the name of the shape they wish to create and display it on the canvas.
-- **Multiple Shapes**: The following shapes can be drawn:
-  - Circle
-  - Rectangle
-  - Triangle
-  - Ellipse
-  - Square
+- **Multiple Shapes**: The following shape can be drawn:
+  - shape.Circle
+  - shape.Rectangle
+  - shape.Triangle
+  - shape.Ellipse
+  - shape.Square
   - Pentagon
-  - Hexagon
-  - Star
+  - shape.Hexagon
+  - shape.Star
 - **Color Randomization**: Each shape is displayed with a random color.
-- **Shape Display**: Shapes are centered on the canvas when added.
+- **shape.Shape Display**: Shapes are centered on the canvas when added.
 - **Clear & Quit Options**: Users can clear the canvas or quit the application using provided buttons.
 
 ## Getting Started
@@ -43,34 +43,37 @@ git clone https://github.com/ewache04/ShapeGUIProject.git
 
 ### Usage
 
-- **Shape Input**: Type the name of the shape (e.g., "Circle", "Rectangle") into the input field.
-- **Add Shape**: Click the "Add Shape" button to draw the shape.
+- **shape.Shape Input**: Type the name of the shape (e.g., "shape.Circle", "shape.Rectangle") into the input field.
+- **Add shape.Shape**: Click the "Add shape.Shape" button to draw the shape.
 - **Clear Canvas**: Click the "Clear Window" button to remove the current shape from the canvas.
 - **Quit**: Click the "Quit" button to exit the application.
 
 ## Example
 
-Upon running the application, the user can type a shape name (such as "Circle") and see the shape rendered in a random color at the center of the canvas.
+Upon running the application, the user can type a shape name (such as "shape.Circle") and see the shape rendered in a random color at the center of the canvas.
 
 ## Project Structure
 
 ```plaintext
 ShapeGUIProject/
-│
 ├── src/
-│   ├── Circle.java           # Class for Circle shape
-│   ├── Rectangle.java        # Class for Rectangle shape
-│   ├── Shape.java            # Abstract class for shapes
-│   ├── ShapeGUI.java         # Main GUI class
-│   ├── Square.java           # Class for Square shape
-│   ├── Triangle.java         # Class for Triangle shape
-│   ├── Ellipse.java          # Class for Ellipse shape
-│   ├── Pentagon.java         # Class for Pentagon shape
-│   ├── Hexagon.java          # Class for Hexagon shape
-│   └── Star.java             # Class for Star shape
-│
-├── README.md                # Project documentation (this file)
-└── LICENSE                  # License information (optional)
+│   ├── shape/
+│   │   ├── BaseShape.java         # Abstract class for shapes
+│   │   ├── Circle.java            # Class for Circle shape
+│   │   ├── Ellipse.java           # Class for Ellipse shape
+│   │   ├── Hexagon.java           # Class for Hexagon shape
+│   │   ├── Pentagon.java          # Class for Pentagon shape
+│   │   ├── Rectangle.java         # Class for Rectangle shape
+│   │   ├── Square.java            # Class for Square shape
+│   │   ├── Star.java              # Class for Star shape
+│   │   ├── Triangle.java          # Class for Triangle shape
+│   ├── Main.java                  # Main class to run the application
+│   ├── ShapeGUI.java              # Main GUI class for rendering shapes
+├── README.md                     # Project documentation
+├── LICENSE                       # License information (optional)
+└── structure.txt                 # Project structure file
+
+
 ```
 
 ## Contributing
